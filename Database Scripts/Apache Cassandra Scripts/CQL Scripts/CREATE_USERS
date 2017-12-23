@@ -1,0 +1,11 @@
+CREATE TABLE "Users" (
+    "UserId" varchar,
+    "Firstname" varchar,
+    "Lastname" varchar,
+    "Emailaddress" varchar,
+    "Password" varchar,
+    "Timestamp" timestamp,
+    PRIMARY KEY ("UserId")
+);
+
+CREATE INDEX "Users_UserId_idx" ON "Users" ("UserId");
